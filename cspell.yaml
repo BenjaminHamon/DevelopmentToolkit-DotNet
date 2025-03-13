@@ -1,0 +1,18 @@
+---
+
+# cspell:words fodt pycache venv
+
+ignorePaths:
+  - ".venv-automation/**"
+  - ".venv/**"
+  - "**/__pycache__/**"
+  - "**/*.drawio"
+  - "**/*.egg-info/**"
+  - "Artifacts/**"
+
+words:
+  - benjaminhamon
+  - hamon
+
+enableFiletypes:
+  - toml

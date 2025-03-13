@@ -1,0 +1,1 @@
+Development Toolkit is free and open source software. The source code is available on [GitHub](https://github.com/BenjaminHamon/DevelopmentToolkit-DotNet), under the [MIT license](https://github.com/BenjaminHamon/DevelopmentToolkit-DotNet/blob/develop/License.txt).

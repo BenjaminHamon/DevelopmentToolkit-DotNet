@@ -1,0 +1,36 @@
+# cspell:words pycache pytest venv
+
+# Artifacts
+/Artifacts/
+/TestResults/
+
+# Environment
+/environment.json
+
+# Logs
+*.log
+
+# NuGet
+/packages/
+
+# Python
+__pycache__/
+.pytest_cache/
+*.egg-info/
+*.pyc
+
+# Python distribution
+/Automation/Scripts/build/
+/Automation/Scripts/dist/
+
+# Python virtual environment
+.venv/
+.venv-automation/
+
+# Visual Studio
+.vs/
+*.csproj.user
+*.suo
+
+# Visual Studio Code
+/.vscode/settings.json
