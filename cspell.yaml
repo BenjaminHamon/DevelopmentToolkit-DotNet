@@ -1,6 +1,9 @@
 ---
 
-# cspell:words fodt pycache venv
+# cspell:words guids msil netstandard pdbonly pycache venv vstt
+
+enableFiletypes:
+  - "*"
 
 ignorePaths:
   - ".venv-automation/**"
@@ -8,11 +11,19 @@ ignorePaths:
   - "**/__pycache__/**"
   - "**/*.drawio"
   - "**/*.egg-info/**"
-  - "Artifacts/**"
+  - "/Artifacts/**"
+  - "/packages/**"
+  - "/Tests/*/ILLink/**"
 
 words:
   - benjaminhamon
   - hamon
 
-enableFiletypes:
-  - toml
+overrides:
+  - filename: "*.csproj"
+    words:
+      - guids
+      - msil
+      - netstandard
+      - pdbonly
+      - vstt

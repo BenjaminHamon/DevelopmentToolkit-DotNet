@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+
+  <PropertyGroup>
+    <SolutionDir Condition="'$(SolutionDir)'==''">$(MSBuildThisFileDirectory)</SolutionDir>
+    <ArtifactDirectory>$(SolutionDir)/Artifacts</ArtifactDirectory>
+    <ProjectDirectoryName>$([System.IO.Path]::GetFileName($(MSBuildProjectDirectory)))</ProjectDirectoryName>
+    <BaseIntermediateOutputPath>$(ArtifactDirectory)/Intermediate</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(ArtifactDirectory)/Intermediate/$(Configuration)</IntermediateOutputPath>
+    <OutputPath>$(ArtifactDirectory)/Binaries/$(Configuration)</OutputPath>
+  </PropertyGroup>
+
+  <Import Project="$(SolutionDir)/Directory.Build.props.user" Condition="Exists('$(SolutionDir)/Directory.Build.props.user')"/>
+
+</Project>
