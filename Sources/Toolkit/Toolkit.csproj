@@ -40,6 +40,10 @@
     <Compile Include="Processes\ProcessRunnerImplementation.cs" />
     <Compile Include="Processes\ProcessStartException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RevisionControl\GitClient.cs" />
+    <Compile Include="RevisionControl\GitHelpers.cs" />
+    <Compile Include="RevisionControl\RevisionControlClient.cs" />
+    <Compile Include="SystemExtensions\DateTimeExtensions.cs" />
     <Compile Include="SystemExtensions\SystemErrorCodes.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
